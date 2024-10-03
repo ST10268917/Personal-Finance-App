@@ -1,0 +1,26 @@
+﻿<Window x:Class="PersonalFinanceTracker.AddTransaction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PersonalFinanceTracker"
+        mc:Ignorable="d"
+        Title="AddTransaction" Height="450" Width="800">
+    <Grid Margin="0,0,0,-36">
+        <Label Content="Transaction ID" HorizontalAlignment="Left" Margin="151,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="idTB" HorizontalAlignment="Left" Margin="301,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="153,158,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="amountTB" HorizontalAlignment="Left" Margin="301,158,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Date" HorizontalAlignment="Left" Margin="155,212,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="dateTB" HorizontalAlignment="Left" Margin="303,217,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Type" HorizontalAlignment="Left" Margin="158,275,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="typeTB" HorizontalAlignment="Left" Margin="302,278,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="159,313,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="categoryTB" HorizontalAlignment="Left" Margin="303,321,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="159,353,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="descriptionTB" HorizontalAlignment="Left" Margin="304,355,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Add Transaction" HorizontalAlignment="Left" Height="59" Margin="163,55,0,0" VerticalAlignment="Top" Width="261"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="259,399,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>
